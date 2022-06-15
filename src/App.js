@@ -11,28 +11,28 @@ function App() {
   return (
       <div>
           <Navbar />
-          <h1> App heading </h1>
+          <h2> Website under construction </h2>
      
         <div className="contacts">
         <Vdo 
-            img="./images/cook.png"
-            name="Luxmi"
-            fb="facebook.com"
-            yt="youtube.com"
-          />
-          <Vdo 
             img="./images/cook.png" 
             name="Luxmi"
             fb="facebook.com"
             yt="youtube.com"
           />
-          <Vdo 
+        <Vdo 
             img="./images/cook.png" 
             name="Luxmi"
             fb="facebook.com"
             yt="youtube.com"
           />
-          <Vdo 
+        <Vdo 
+            img="./images/cook.png" 
+            name="Luxmi"
+            fb="facebook.com"
+            yt="youtube.com"
+          />
+        <Vdo 
             img="./images/cook.png" 
             name="Luxmi"
             fb="facebook.com"

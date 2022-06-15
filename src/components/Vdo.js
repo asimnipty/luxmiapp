@@ -1,18 +1,19 @@
 import React from "react"
 
 
-export default function Vdo({img, name, fb, yt}) {
+export default function Vdo(props) {
+    
     return (
         <div className="contact-card">
-            <img src={img}/>
-            <h3>{name}</h3>
+            <img src={require("./images/cook.png")}/>
+            <h3>{props.name}</h3>
             <div className="info-group">
-                <img src="fb.png" />
-                <p>{fb}</p>
+                <img src={require("./images/fb.png")} />
+                <p>{props.fb}</p>
             </div>
             <div className="info-group">
-                <img src="ytube.png" />
-                <p>{yt}</p>
+                <img src={require("./images/ytube.png")} />
+                <p>{props.yt}</p>
             </div>
         </div>
     )
