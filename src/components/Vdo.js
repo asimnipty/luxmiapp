@@ -1,26 +1,27 @@
 import React from "react"
 
-export default function Vdo(props) {
+
+export default function Vdo({img, name, fb, yt}) {
     return (
         <div className="contact-card">
-            <img src={props.img}/>
-            <h3>{props.name}</h3>
+            <img src={img}/>
+            <h3>{name}</h3>
             <div className="info-group">
-                <img src="../images/fb.png" />
-                <p>{props.phone}</p>
+                <img src="fb.png" />
+                <p>{fb}</p>
             </div>
             <div className="info-group">
-                <img src="../images/ytube.png" />
-                <p>{props.email}</p>
+                <img src="ytube.png" />
+                <p>{yt}</p>
             </div>
         </div>
     )
 }
 
-const person = {
+/*const person = {
     img: "../images/cook.png",
     name: "Luxmi ",
     phone: "youtube.com",
     email: "facebook.com"
-}
+}*/
 
