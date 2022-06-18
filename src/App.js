@@ -15,13 +15,13 @@ function App() {
      
         <div className="contacts">
         <Vdo 
-            img="./images/cook.png" 
+            img= "../images/cook.png"
             name="Luxmi"
             fb="facebook.com"
             yt="youtube.com"
           />
         <Vdo 
-            img="./images/cook.png" 
+            img="./images/cook1.png" 
             name="Juice"
             fb="facebook.com"
             yt="youtube.com"

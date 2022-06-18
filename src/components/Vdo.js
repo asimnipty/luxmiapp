@@ -2,10 +2,10 @@ import React from "react"
 
 
 export default function Vdo(props) {
-    
+    console.log(props)
     return (
         <div className="contact-card">
-            <img src={require("./images/cook.png")}/>
+            <img src={require("./images/cook1.png")} />
             <h3>{props.name}</h3>
             <div className="info-group">
                 <img src={require("./images/fb.png")} />
