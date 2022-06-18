@@ -22,19 +22,19 @@ function App() {
           />
         <Vdo 
             img="./images/cook.png" 
-            name="Luxmi"
+            name="Juice"
             fb="facebook.com"
             yt="youtube.com"
           />
         <Vdo 
             img="./images/cook.png" 
-            name="Luxmi"
+            name="Chicken"
             fb="facebook.com"
             yt="youtube.com"
           />
         <Vdo 
             img="./images/cook.png" 
-            name="Luxmi"
+            name="Fish"
             fb="facebook.com"
             yt="youtube.com"
           />
