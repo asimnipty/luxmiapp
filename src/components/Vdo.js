@@ -1,18 +1,22 @@
 import React from "react"
+import img from "../images/cook.png"
+import yt from "../images/ytube.png"
+import fb from "../images/fb.png"
+
 
 
 export default function Vdo(props) {
-    console.log(props)
+    
     return (
         <div className="contact-card">
-            <img src={require("./images/cook1.png")} />
+            <img src= {img} />
             <h3>{props.name}</h3>
             <div className="info-group">
-                <img src={require("./images/fb.png")} />
+                <img src= {fb} />
                 <p>{props.fb}</p>
             </div>
             <div className="info-group">
-                <img src={require("./images/ytube.png")} />
+                <img src={yt} />
                 <p>{props.yt}</p>
             </div>
         </div>
