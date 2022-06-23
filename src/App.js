@@ -3,43 +3,35 @@ import React from "react"
 import Navbar from "./components/Navbar"
 import Vdo from "./components/Vdo"
 import "./style.css"
+import Vdodata from "./Vdodata"
 
 
 
 
 function App() {
+  const vdoElement = Vdodata.map (item => {
+    return (
+      < Vdo
+          key = {item.id}
+          img = {item.coverImg}
+          name = {item.title}
+          rating = {item.rating}
+          des = {item.des} 
+          location = {item.location}
+      />    
+
+    )
+  })
   return (
       <div>
           <Navbar />
-          <h2> Website under construction </h2>
-     
-        <div className="contacts">
-        <Vdo 
-            img= "../images/cook.png"
-            name="Luxmi"
-            fb="facebook.com"
-            yt="youtube.com"
-          />
-        <Vdo 
-            img="./images/cook1.png" 
-            name="Juice"
-            fb="facebook.com"
-            yt="youtube.com"
-          />
-        <Vdo 
-            img="./images/cook.png" 
-            name="Chicken"
-            fb="facebook.com"
-            yt="youtube.com"
-          />
-        <Vdo 
-            img="./images/cook.png" 
-            name="Fish"
-            fb="facebook.com"
-            yt="youtube.com"
-          />
-        </div> 
+          <marquee><h2> Website under construction </h2></marquee>
+          <section className="vdo-list">
+                {vdoElement}
+          </section>
           
+     
+        
       </div>
   
   )

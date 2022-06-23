@@ -3,11 +3,18 @@
 * {
     box-sizing: border-box;
 }
+a:link { text-decoration: none; }
+
+a:visited { text-decoration: teal; }
+
+a:hover { text-decoration: teal; }
+
+a:active { text-decoration: none; }
 body {
   
     background-color: cadetblue;
     height: fit-content;
-    margin: 0;  
+    margin: 2;  
     align-items: center;
     font-family: 'Inter', sans-serif;
 
@@ -50,26 +57,27 @@ nav {
 }
 .contacts {
     display: flex;
-    justify-content: center;
+    justify-content:left;
     flex-wrap: wrap;
     gap: 40px;
 }
 
-.contact-card {
-    flex-basis: 225px;
+.vdo-card {
+    display:flex;
+    flex-basis: 100%;
     box-shadow: 1px 1px 8px rgba(0, 0, 0, 0.25);
     border-radius: 10px;
-    display: flex;
     flex-direction: column;
     padding: 13px;
     padding-bottom: 20px;
     background-color: white;
 }
 
-.contact-card > img {
+.vdo-card > img {
+    display:flex;
     width: 100%;
     height: auto;
-    align-self: center;
+    align-self: l;
     border-radius: 5px;
     object-fit: cover;
 }
@@ -94,6 +102,12 @@ nav {
     font-size: 12px;
     color: #2B283A;
 }
+.info-group > a {
+    margin-block: 3px;
+    font-size: 12px;
+    color: #2B283A;
+
+}
 
 .footer {   
     left: 0;
@@ -102,4 +116,11 @@ nav {
     background-color: red;
     color: white;
     text-align: center;
-  }
+}
+
+.vdo-list {
+    display: flex;
+    flex-wrap: nowrap;
+    gap: 20px;
+    overflow-x: auto;
+}
