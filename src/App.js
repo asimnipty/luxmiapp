@@ -13,11 +13,7 @@ function App() {
     return (
       < Vdo
           key = {item.id}
-          img = {item.coverImg}
-          name = {item.title}
-          rating = {item.rating}
-          des = {item.des} 
-          location = {item.location}
+          item={item}
       />    
 
     )

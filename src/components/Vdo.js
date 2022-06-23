@@ -9,14 +9,14 @@ export default function Vdo(props) {
     
     return (
         <div className="vdo-card">
-            <img src={props.img}/>
-            <h3>{props.name}</h3>
+            <img src= {props.item.coverImg} className = "vdo-img"/>
+            <h3>{props.item.title}</h3>
             <div>
                 <img src= {require("../images/star.png")} className="card-star" />
                 
-                <span>{props.rating}</span>
-                <span className="gray">({props.reviewCount}) • </span>
-                <span className="gray">{props.location}</span>
+                <span>{props.item.rating}</span>
+                <span className="gray">({props.item.reviewCount}) • </span>
+                <span className="gray">{props.item.location}</span>
             </div>
             <p>{props.des} </p>
             <div className="info-group">
