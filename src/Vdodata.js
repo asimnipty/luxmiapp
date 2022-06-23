@@ -2,7 +2,7 @@ export default [
     {
         id : 1,
         coverImg : require('./images/cook2.png'),
-        title : "Chicken",
+        title : "মুরগি ",
         des : "Traditional tasty food receipe",
         rating : "4",
         location : "BD"
