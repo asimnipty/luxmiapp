@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/luxmiapp/static/css/main.6d3b7b20.css",
+    "main.css": "/luxmiapp/static/css/main.a6b65331.css",
     "main.js": "/luxmiapp/static/js/main.ea0a47b8.js",
     "static/media/cook2.png": "/luxmiapp/static/media/cook2.913916a9fed378ed1a06.png",
     "static/media/cook3.png": "/luxmiapp/static/media/cook3.a289b65834eb85c39c40.png",
     "static/media/logoR.png": "/luxmiapp/static/media/logoR.5c89013982bd275c1b3d.png",
     "static/media/avatar.jpg": "/luxmiapp/static/media/avatar.52a10dd83889c502969d.jpg",
     "index.html": "/luxmiapp/index.html",
-    "main.6d3b7b20.css.map": "/luxmiapp/static/css/main.6d3b7b20.css.map",
+    "main.a6b65331.css.map": "/luxmiapp/static/css/main.a6b65331.css.map",
     "main.ea0a47b8.js.map": "/luxmiapp/static/js/main.ea0a47b8.js.map"
   },
   "entrypoints": [
-    "static/css/main.6d3b7b20.css",
+    "static/css/main.a6b65331.css",
     "static/js/main.ea0a47b8.js"
   ]
 }
